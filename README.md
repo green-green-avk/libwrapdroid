@@ -31,16 +31,16 @@ make PREFIX=/opt/shm install
 
 ## Parts
 
-* `libwrapdroid-server` - is to be started to create a resource namespace.
-* `libwrapdroid-shm-posix.so` - to be added to `LD_PRELOAD`.
-* `libwrapdroid-shm-sysv.so` - to be added to `LD_PRELOAD`.
+* `libwrapdroid-server` — is to be started to create a resource namespace.
+* `libwrapdroid-shm-posix.so` — to be added to `LD_PRELOAD`.
+* `libwrapdroid-shm-sysv.so` — to be added to `LD_PRELOAD`.
 
 
 ## Environment variables
 
-* `LIBWRAPDROID_SOCKET_NAME` - communication socket name
+* `LIBWRAPDROID_SOCKET_NAME` — communication socket name
   in the abstract namespace.
   <br/>_(must be set per namespace)_
-* `LIBWRAPDROID_AUTH_KEY` - authentication key
+* `LIBWRAPDROID_AUTH_KEY` — authentication key
   (at least 16 hex digits length).
   <br/>_(must be set per namespace)_
