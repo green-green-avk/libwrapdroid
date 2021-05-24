@@ -1,0 +1,7 @@
+{
+	global:
+		shm_open;
+		shm_unlink;
+
+	local: *;         # hide everything else
+};
